@@ -1,53 +1,116 @@
-/* Universal selector */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0
-}
-header{
-    background-color: rgb(78, 77, 77);
-    color: #fff;
-    padding: 10px;
+body {
+  margin: 0;
 }
 
-header h1{
-    margin: 0;
+.header {
+  width: 100%;
+  background-color: rgb(179, 126, 57);
+  padding: 25px;
+  height: 60px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.logo {
+  width: 20%;
+  height: 60px;
+  float: left;
+  
 }
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
+.menu {
+  width: 50%;
+  height: 100px;
+  float: left;
+ 
 }
 
-nav a {
-    color: rgb(252, 246, 246);
-    text-decoration: none;
+.menu a {
+  text-decoration: none;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 35px;
+  font-weight: bold;
 }
 
-main{
-    padding: 20px;
+.menu a:hover{
+  background-color: aliceblue;
+  color: rgb(161, 46, 11);
 }
-section{
-    margin-bottom: 30px;
-}
-footer{
-    background-color: #312f2f;
-    color: aliceblue;
-    padding: 10px;
-    text-align: center;
+.sub-menu{
+  display: inline;
+  position: relative;
 }
 
-footer p {
-    margin: 0;
+.sub-content{
+  position: absolute;
+  top: 15px;background-color: rgb(148, 104, 11);
+  text-align: center;
+  width: 150px;
+  height: 130px;
+  display: none;
+  right: 0;
+
+}
+
+.sub-content a{
+  display: block;
+}
+
+.sub-content a:hover{
+  background-color: beige;
+}
+.sub-menu:hover .sub-content{
+  display: block;
+}
+
+.search {
+  width: 30%;
+  float: left;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  width: 25%;
+  height: 400px;
+  background-color: rgb(43, 106, 161);
+  float: left;
+}
+
+.main {
+  width: 75%;
+  height: 200px;
+  background-color: rgb(172, 203, 230);
+  float: left;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/06/05/10/15/landscape-2373651_640.jpg);
+  
+  background-size: cover;
+}
+
+.row {
+  width: 100%;
+}
+.col1 {
+  width: 50%;
+  float: left;
+  background-color: rgb(214, 119, 190);
+  height: 100px;
+}
+.col2 {
+  width: 50%;
+  float: left;
+  background-color: rgb(219, 152, 210);
+  height: 100px;
+}
+footer {
+  background-color: rgb(233, 189, 131);
+  height: 40px;
+  width: 100%;
+  float: inline-end;
 }

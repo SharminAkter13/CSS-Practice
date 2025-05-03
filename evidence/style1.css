@@ -12,10 +12,13 @@
 .logo{
     width: 20%;
     text-align: center;
+    float: left;
 }
 
 .menu{
     width: 50%;
+    float: left;
+    margin-top: 30px;
 }
 
 .header a {
@@ -25,6 +28,7 @@
     padding: 15px;
     margin-left: 30px;
     text-align: right;
+    
 }
 
 .header a:hover{
@@ -36,6 +40,7 @@
 .sub-menu{
     display: inline;
     position: relative;
+    
 }
 
 .sub-content{
@@ -44,13 +49,14 @@
     right: 0;
     background-color: blueviolet;
     text-align: center;
-    width: 100px;
-    height: 160px;
+    width: 150px;
+    height: 200px;
     display: none;
 }
 
 .sub-content a{
     display: block;
+    text-align: center;
 }
 
 .sub-content a:hover{
@@ -65,4 +71,6 @@
 .search{
     width: 30%;
     text-align: right;
+    float: left;
+    margin-top: 30px;
 }
