@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  background-color: rgba(199, 13, 50, 0.623);
+  height: 80px;
+}
+.logo {
+  width: 20%;
+  float: left;
+  margin-left: 20px;
+}
+
+.menu {
+  width: 60%;
+  float: left;
+  margin-top: 30px;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 40px;
+  text-align: right;
+}
+
+.header a:hover {
+  background-color: aliceblue;
+  color: brown;
+  border-radius: 5px;
+  padding: 1;
+}
+
+.sub-menu {
+  display: inline;
+  position: relative;
+}
+.sub-content {
+  position: absolute;
+  top: 17px;
+  right: 0;
+  text-align: center;
+  width: 150px;
+  height: 200px;
+  display: none;
+  background-color: rgba(233, 11, 11, 0.507);
+}
+
+.sub-content a {
+  display: block;
+  text-align: center;
+}
+
+.sub-content a:hover {
+  background-color: aliceblue;
+}
+
+.sub-menu:hover .sub-content {
+  display: block;
+}
+
+.search {
+  width: 20%;
+  float: left;
+  text-align: right;
+  float: inline-end;
+}
