@@ -48,9 +48,9 @@
 }
 .vertical-menu{
     width: 25%;
-    height: 300px;
+    height: 500px;
     float: left;
-    background-color: aliceblue;
+    background-color: rgb(243, 195, 162);
     text-align: center;
 }
 
@@ -64,11 +64,20 @@ color: black;
 
 .vertical-menu a:hover{
     color: brown;
+    background-color: rgb(247, 182, 135) ;
+    padding: 20px 100px;
+    width: 25%;
+    margin: 10px;
 }
 
+.banner{
+    background-image: url(pic6.jpg);
+    background-size: cover;
+    height: 400px;
+}
 .content{
     width: 75%;
-    height: 300px;
+    height: 100px;
     float: left;
     background-color: rgb(247, 218, 182);
 }
@@ -78,5 +87,5 @@ footer{
     text-align: center;
     float: inline-end;
     background-color: rgba(240, 55, 8, 0.801);
-    height: 30px;
+    height: 60px;
 }
