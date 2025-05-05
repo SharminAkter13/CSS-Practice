@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: cadetblue;
+  height: 80px;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+
+  /* background-color: aliceblue; */
+}
+
+.logo img:hover {
+  background-color: aqua;
+}
+
+.menu {
+  width: 60%;
+  float: left;
+  margin-top: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.menu a:hover {
+  background-color: aqua;
+  color: brown;
+  font-weight: bold;
+}
+
+.search {
+  width: 20%;
+  float: left;
+  margin-top: 20px;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  width: 25%;
+  height: 550px;
+  float: left;
+  background-color: aqua;
+}
+
+.sidebar a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: rgb(88, 172, 211);
+  color: aliceblue;
+  padding: 25px;
+}
+
+.main {
+  width: 75%;
+  float: left;
+  height: 550px;
+  background-color: rgb(130, 211, 248);
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://cdn.pixabay.com/photo/2022/09/02/19/43/leaves-7428260_640.jpg);
+  background-size: cover;
+}
+
+.text {
+  width: 100%;
+}
+
+.text1 {
+  width: 50%;
+  height: 150px;
+  float: left;
+  background-color: rgb(48, 167, 167);
+}
+
+.text2 {
+  width: 50%;
+  height: 150px;
+  float: left;
+  background-color: rgb(127, 221, 221);
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: cadetblue;
+  float: inline-end;
+  text-align: center;
+}
