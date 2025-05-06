@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+}
+
+.top-menu {
+  background-color: rgb(238, 114, 25);
+  width: 100%;
+  height: 90px;
+}
+.logo {
+  width: 20%;
+  float: left;
+}
+
+.menu {
+  width: 60%;
+  float: left;
+
+  margin-top: 25px;
+}
+.menu a {
+  text-decoration: none;
+  padding: 40px;
+  color: aliceblue;
+  margin: 10px;
+  font-size: 16pt;
+}
+.menu a:hover {
+  background-color: rgb(230, 161, 113);
+  color: brown;
+}
+
+.search {
+  width: 20%;
+  float: left;
+  margin-top: 25px;
+}
+.main {
+  width: 100%;
+  height: 530px;
+  background-color: rgb(247, 196, 159);
+}
+
+.vertical-menu {
+  width: 25%;
+  float: left;
+  height: 530px;
+  background-color: rgba(247, 117, 71, 0.644);
+}
+
+.vertical-menu a {
+  text-decoration: none;
+  padding: 35px;
+  margin: 8px;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  font-size: 16pt;
+}
+.vertical-menu a:hover {
+  background-color: rgb(245, 197, 163);
+  color: brown;
+}
+.content {
+  width: 75%;
+  height: 530px;
+  background-color: antiquewhite;
+  float: left;
+}
+
+.banner {
+  width: 100%;
+  height: 430px;
+  background-image: url(banner2.jpg);
+  background-size: cover;
+}
+
+.text {
+  width: 100%;
+}
+
+.text1 {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.text2 {
+  width: 50%;
+  float: left;
+  height: 100px;
+  background-color: rgb(233, 209, 177);
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(209, 102, 26);
+  float: inline-end;
+  text-align: center;
+}
