@@ -15,10 +15,6 @@
   /* background-color: aliceblue; */
 }
 
-.logo img:hover {
-  background-color: aqua;
-}
-
 .menu {
   width: 60%;
   float: left;
@@ -27,9 +23,10 @@
 
 .menu a {
   text-decoration: none;
-  padding: 10px;
+  padding: 40px;
   color: aliceblue;
   border-radius: 5px;
+  font-size: 16pt;
 }
 .menu a:hover {
   background-color: aqua;
@@ -49,29 +46,29 @@
 
 .sidebar {
   width: 25%;
-  height: 550px;
+  height: 530px;
   float: left;
   background-color: aqua;
 }
 
 .sidebar a {
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
   margin: 10px;
   text-align: center;
   display: block;
+  font-size: 16pt;
 }
 
 .sidebar a:hover {
   background-color: rgb(88, 172, 211);
   color: aliceblue;
-  padding: 25px;
 }
 
 .main {
   width: 75%;
   float: left;
-  height: 550px;
+  height: 530px;
   background-color: rgb(130, 211, 248);
 }
 .banner {
@@ -87,14 +84,14 @@
 
 .text1 {
   width: 50%;
-  height: 150px;
+  height: 130px;
   float: left;
   background-color: rgb(48, 167, 167);
 }
 
 .text2 {
   width: 50%;
-  height: 150px;
+  height: 130px;
   float: left;
   background-color: rgb(127, 221, 221);
 }
